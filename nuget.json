@@ -1,0 +1,332 @@
+{
+  "sets": [
+    {
+      "name": "entityframework",
+      "description": "Add Entity Framework NuGet packages",
+      "packages": [
+        { "package": "Microsoft.EntityFrameworkCore", "version": null },
+        { "package": "Microsoft.EntityFrameworkCore.Tools", "version": null },
+        { "package": "Microsoft.EntityFrameworkCore.Design", "version": null },
+        { "package": "Microsoft.EntityFrameworkCore.SqlServer", "version": null }
+      ]
+    },
+    {
+      "name": "azmaps",
+      "description": "Add Azure Maps NuGet package",
+      "packages": [
+        { "package": "Azure.Maps.Rendering", "version": "prerelease" },
+        { "package": "Azure.Maps.Routing", "version": "prerelease" },
+        { "package": "Azure.Maps.Search", "version": "prerelease" },
+        { "package": "Azure.Maps.Geolocation.NetCore", "version": "prerelease" },
+        { "package": "UnitsNet", "version": null },
+        { "package": "GeoCoordinate.NetCore", "version": null }
+      ]
+    },
+    {
+      "name": "azcogsearch",
+      "description": "Add Azure Cognitive Search NuGet package",
+      "packages": []
+    },
+    {
+      "name": "azblob",
+      "description": "Azure blob management",
+      "packages": [
+        { "package": "Azure.Storage.Blobs", "version": null }
+      ]
+    },
+    {
+      "name": "azstore",
+      "description": "Add Azure Storage NuGet package",
+      "packages": [
+        { "package": "Azure.Storage.Blobs", "version": null },
+        { "package": "Azure.Storage.Queues", "version": null },
+        { "package": "Azure.Storage.Files.Shares", "version": null }
+      ]
+    },
+    {
+      "name": "azevent",
+      "description": "Add Azure Event Hubs NuGet package",
+      "packages": [
+        { "package": "Azure.Messaging.EventHubs", "version": null }
+      ]
+    },
+    {
+      "name": "csv",
+      "description": "Add CSVHelper NuGet package",
+      "packages": [
+        { "package": "CsvHelper", "version": null }
+      ]
+    },
+    {
+      "name": "sql",
+      "description": "Add Azure SQL Server NuGet package",
+      "packages": [
+        { "package": "Microsoft.Data.SqlClient", "version": null }
+      ]
+    },
+    {
+      "name": "excel",
+      "description": "Add EPPlus NuGet package for Excel",
+      "packages": [
+        { "package": "EPPlus", "version": null }
+      ]
+    },
+    {
+      "name": "maui",
+      "description": "Add .NET MAUI NuGet packages",
+      "packages": [
+        { "package": "Microsoft.Maui", "version": null },
+        { "package": "Microsoft.Maui.Controls", "version": null },
+        { "package": "Microsoft.Maui.Graphics", "version": null }
+      ]
+    },
+    {
+      "name": "config",
+      "description": "Configuration packages",
+      "packages": [
+        { "package": "Microsoft.Extensions.Configuration", "version": null },
+        { "package": "Microsoft.Extensions.Configuration.Json", "version": null },
+        { "package": "Microsoft.Extensions.Configuration.AzureAppConfiguration", "version": null },
+        { "package": "Microsoft.Extensions.Options", "version": null },
+        { "package": "Microsoft.Extensions.Configuration.Binder", "version": null }
+      ]
+    },
+    {
+      "name": "configextend",
+      "description": "Extended configuration packages",
+      "packages": [
+        { "package": "Microsoft.Extensions.Configuration.EnvironmentVariables", "version": null },
+        { "package": "Microsoft.Extensions.Configuration.CommandLine", "version": null },
+        { "package": "Microsoft.Extensions.Configuration.UserSecrets", "version": null }
+      ]
+    },
+    {
+      "name": "ad",
+      "description": "Azure Active Directory packages",
+      "packages": [
+        { "package": "Microsoft.Identity.Web", "version": null },
+        { "package": "Microsoft.AspNetCore.Authentication.OpenIdConnect", "version": "6.0.18" }
+      ]
+    },
+    {
+      "name": "selenium",
+      "description": "Selenium packages",
+      "packages": [
+        { "package": "Selenium.WebDriver", "version": null },
+        { "package": "Selenium.WebDriver.ChromeDriver", "version": null },
+        { "package": "Selenium.Support", "version": null },
+        { "package": "DotNetSeleniumExtras.WaitHelpers", "version": null }
+      ]
+    },
+    {
+      "name": "azredis",
+      "description": "Azure Redis services",
+      "packages": [
+        { "package": "StackExchange.Redis", "version": null },
+        { "package": "Microsoft.Extensions.Caching.StackExchangeRedis", "version": "prerelease" },
+        { "package": "Azure.ResourceManager.Redis", "version": null }
+      ]
+    },
+    {
+      "name": "test",
+      "description": "Testing packages",
+      "packages": [
+        { "package": "Moq", "version": null },
+        { "package": "NUnit", "version": null },
+        { "package": "NUnit3TestAdapter", "version": null },
+        { "package": "Microsoft.NET.Test.Sdk", "version": null },
+        { "package": "Newtonsoft.Json", "version": null },
+        { "package": "NUnit.Async", "version": null },
+        { "package": "coverlet.msbuild", "version": null }
+      ]
+    },
+    {
+      "name": "http",
+      "description": "HTTP packages",
+      "packages": [
+        { "package": "Microsoft.AspNetCore.Http", "version": null },
+        { "package": "Microsoft.AspNetCore.Mvc", "version": null }
+      ]
+    },
+    {
+      "name": "json",
+      "description": "JSON packages",
+      "packages": [
+        { "package": "Newtonsoft.Json", "version": null },
+        { "package": "Newtonsoft.Json.Schema", "version": null },
+        { "package": "JsonPath", "version": null }
+      ]
+    },
+    {
+      "name": "azai",
+      "description": "Azure AI services",
+      "packages": [
+        { "package": "Azure.AI.OpenAI", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "rest",
+      "description": "REST packages",
+      "packages": [
+        { "package": "RestSharp", "version": null }
+      ]
+    },
+    {
+      "name": "azure-core",
+      "description": "Core services for Azure",
+      "packages": [
+        { "package": "Azure.Core", "version": "prerelease" },
+        { "package": "Azure.Identity", "version": "prerelease" },
+        { "package": "Azure.Messaging.EventGrid", "version": "prerelease" },
+        { "package": "Azure.Monitor.Query", "version": "prerelease" },
+        { "package": "Azure.Monitor.Ingestion", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-storage",
+      "description": "Azure Storage services",
+      "packages": [
+        { "package": "Azure.Storage.Blobs", "version": "prerelease" },
+        { "package": "Azure.Storage.Queues", "version": "prerelease" },
+        { "package": "Azure.Storage.Files.Shares", "version": "prerelease" },
+        { "package": "Azure.Storage.DataLake", "version": "prerelease" },
+        { "package": "Azure.Storage.Common", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-security-identity",
+      "description": "Azure security and identity services",
+      "packages": [
+        { "package": "Microsoft.Identity.Client", "version": "prerelease" },
+        { "package": "Microsoft.Identity.Web", "version": "prerelease" },
+        { "package": "Azure.Security.KeyVault.Secrets", "version": "prerelease" },
+        { "package": "Azure.Security.KeyVault.Keys", "version": "prerelease" },
+        { "package": "Azure.Security.KeyVault.Certificates", "version": "prerelease" },
+        { "package": "Microsoft.AspNetCore.Authentication.JwtBearer", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-ai",
+      "description": "Azure AI services",
+      "packages": [
+        { "package": "Azure.AI.OpenAI", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-ai-cognitive",
+      "description": "Azure AI and Cognitive services",
+      "packages": [
+        { "package": "Azure.AI.TextAnalytics", "version": "prerelease" },
+        { "package": "Azure.AI.FormRecognizer", "version": "prerelease" },
+        { "package": "Azure.AI.OpenAI", "version": "prerelease" },
+        { "package": "Azure.AI.Language.QuestionAnswering", "version": "prerelease" },
+        { "package": "Azure.AI.Language.Conversations", "version": "prerelease" },
+        { "package": "Azure.CognitiveServices.Vision.ComputerVision", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-database-sql",
+      "description": "Azure Database and SQL services",
+      "packages": [
+        { "package": "Microsoft.Data.SqlClient", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Cosmos", "version": "prerelease" },
+        { "package": "Azure.Data.Tables", "version": "prerelease" },
+        { "package": "Azure.Data.AppConfiguration", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-web-api",
+      "description": "Azure Web and API services",
+      "packages": [
+        { "package": "Microsoft.AspNetCore.Mvc", "version": "prerelease" },
+        { "package": "Microsoft.AspNetCore.Http", "version": "prerelease" },
+        { "package": "Microsoft.AspNetCore.Authentication.JwtBearer", "version": "prerelease" },
+        { "package": "Microsoft.Extensions.Configuration.AzureAppConfiguration", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-event-messaging",
+      "description": "Azure Event and Messaging services",
+      "packages": [
+        { "package": "Azure.Messaging.EventHubs", "version": "prerelease" },
+        { "package": "Azure.Messaging.ServiceBus", "version": "prerelease" },
+        { "package": "Azure.Messaging.EventGrid", "version": "prerelease" },
+        { "package": "Microsoft.Azure.EventGrid", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-devops-cicd",
+      "description": "Azure DevOps and CI/CD services",
+      "packages": [
+        { "package": "Microsoft.TeamFoundationServer.ExtendedClient", "version": "prerelease" },
+        { "package": "Microsoft.VisualStudio.Services.Client", "version": "prerelease" },
+        { "package": "Microsoft.VisualStudio.Services.InteractiveClient", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-functions",
+      "description": "Azure Functions services",
+      "packages": [
+        { "package": "Microsoft.Azure.Functions.Extensions", "version": "prerelease" },
+        { "package": "Microsoft.NET.Sdk.Functions", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-networking-cdn",
+      "description": "Azure Networking and CDN services",
+      "packages": [
+        { "package": "Microsoft.Azure.Management.Network", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Management.Cdn", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-monitoring-logging",
+      "description": "Azure Monitoring and Logging services",
+      "packages": [
+        { "package": "Microsoft.Extensions.Logging.AzureAppServices", "version": "prerelease" },
+        { "package": "Microsoft.Extensions.Logging.ApplicationInsights", "version": "prerelease" },
+        { "package": "Microsoft.ApplicationInsights.AspNetCore", "version": "prerelease" },
+        { "package": "Microsoft.ApplicationInsights.WorkerService", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-redis",
+      "description": "Azure Redis services",
+      "packages": [
+        { "package": "StackExchange.Redis", "version": "prerelease" },
+        { "package": "Microsoft.Extensions.Caching.StackExchangeRedis", "version": "prerelease" },
+        { "package": "Azure.ResourceManager.Redis", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-iot",
+      "description": "Azure IoT services",
+      "packages": [
+        { "package": "Microsoft.Azure.Devices.Client", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Devices", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Devices.Provisioning.Client", "version": "prerelease" }
+      ]
+    },
+    {
+      "name": "azure-maps",
+      "description": "Azure Maps services",
+      "packages": [
+        { "package": "Azure.Maps.Rendering", "version": "prerelease" },
+        { "package": "Azure.Maps.Routing", "version": "prerelease" },
+        { "package": "Azure.Maps.Search", "version": "prerelease" },
+        { "package": "Azure.Maps.Geolocation.NetCore", "version": "prerelease" },
+        { "package": "UnitsNet", "version": null },
+        { "package": "GeoCoordinate.NetCore", "version": null }
+      ]
+    },
+    {
+      "name": "azure-media-services",
+      "description": "Azure Media Services",
+      "packages": [
+        { "package": "Microsoft.Azure.Management.Media", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Media.Analytics.Edge", "version": "prerelease" },
+        { "package": "Microsoft.Azure.Media.LiveVideoAnalytics.Edge", "version": "prerelease" }
+      ]
+    }
+  ]
+}
